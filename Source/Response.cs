@@ -167,14 +167,12 @@ namespace HttpKit
                 bool outputHeader = true;
                 if (this.HasBeenGzipped == true)
                 {
-                    if (header.Name != ("content-encoding").ToLower())
+                    if (header.Name == ("content-encoding").ToLower())
                     {
-                        continue;
-                    }
-                       
-                    if (header.Value.Contains("gzip") == true)
-                    {
-                        outputHeader = false;
+                        if (header.Value.Contains("gzip") == true)
+                        {
+                            outputHeader = false;
+                        }
                     }
                 }
 

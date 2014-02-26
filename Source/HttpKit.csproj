@@ -7,8 +7,8 @@
     <ProjectGuid>{62B0A8CB-DEAD-4BA9-BFBE-1A1125DFCD12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HttpParser</RootNamespace>
-    <AssemblyName>HttpParser</AssemblyName>
+    <RootNamespace>HttpKit</RootNamespace>
+    <AssemblyName>HttpKit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

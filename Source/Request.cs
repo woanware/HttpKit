@@ -67,11 +67,6 @@ namespace HttpKit
                     return true;
                 }
 
-                if (temp.Contains("Host: www.luscombemaye.co.uk"))
-                {
-
-                }
-
                 // Still identified a header so add to list
                 Header header = new Header(temp);
                 this.Headers.Add(header);
